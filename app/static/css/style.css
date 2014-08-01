@@ -1,3 +1,55 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+  height: 90px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+h1 {
+  width: 100%;
+  background-color: lightgrey;
+  margin: 0;
+  height: 90px;
+  font-size: 55px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 55px 15px;
+}
+
 a {
   text-decoration: none;
+}
+
+.person {
+  display: inline-block;
+  margin: 10px;
+  width: 400px;
+  border: solid 1px gray;
+  position: relative;
+}
+
+.name {
+  height: 60px;
+  color: grey;
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.5em;
 }
